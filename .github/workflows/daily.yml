@@ -57,7 +57,7 @@ jobs:
           GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
           GMAIL_USER_EMAIL: ${{ secrets.GMAIL_USER_EMAIL }}
         run: |
-          python src/main.py
+          python -m src.main
 
       - name: Configure Git
         run: |
