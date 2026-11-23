@@ -9,6 +9,10 @@ permissions:
   contents: write  # Required to commit data/ changes and deploy to Pages
 
 jobs:
+  - name: Set up Node.js 20
+  uses: actions/setup-node@v3
+  with:
+    node-version: '20'
   organize:
     runs-on: ubuntu-latest
     timeout-minutes: 30
