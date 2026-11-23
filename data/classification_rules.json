@@ -1,0 +1,58 @@
+{
+  "rules": [
+    {
+      "type": "domain",
+      "pattern": "@mycompany.com",
+      "labels": ["Auto/Work"],
+      "priority": 10
+    },
+    {
+      "type": "domain",
+      "pattern": "@client-a.com",
+      "labels": ["Auto/Work", "Auto/Client-A"],
+      "priority": 10
+    },
+    {
+      "type": "domain",
+      "pattern": "@client-b.com",
+      "labels": ["Auto/Work", "Auto/Client-B"],
+      "priority": 10
+    },
+    {
+      "type": "header",
+      "name": "List-Unsubscribe",
+      "exists": true,
+      "labels": ["Auto/Newsletter"],
+      "priority": 5
+    },
+    {
+      "type": "header",
+      "name": "Precedence",
+      "value": "bulk",
+      "labels": ["Auto/Promotion"],
+      "priority": 5
+    },
+    {
+      "type": "keyword",
+      "field": "subject",
+      "patterns": ["invoice", "receipt", "bill", "payment", "due"],
+      "labels": ["Auto/Important"],
+      "priority": 8
+    },
+    {
+      "type": "keyword",
+      "field": "subject",
+      "patterns": ["meeting", "call", "deadline", "urgent", "asap"],
+      "labels": ["Auto/Important"],
+      "priority": 8
+    },
+    {
+      "type": "address_book",
+      "labels": ["Auto/Personal"],
+      "priority": 3
+    }
+  ],
+  "defaults": {
+    "labels": ["Auto/Unclassified"]
+  }
+}

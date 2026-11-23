@@ -1,0 +1,27 @@
+{
+  "briefing": {
+    "date": "2024-01-01",
+    "generated_at": "2024-01-01T00:00:00Z",
+    "summary": {
+      "total_processed": 0,
+      "total_classified": 0,
+      "new_labels_applied": 0,
+      "label_distribution": {}
+    },
+    "sections": {
+      "important": {"title": "⭐ Important", "count": 0, "emails": []},
+      "work": {"title": "💼 Work", "count": 0, "emails": []},
+      "personal": {"title": "👤 Personal", "count": 0, "emails": []},
+      "newsletter": {"title": "📰 Newsletters", "count": 0, "emails": []},
+      "promotion": {"title": "🏷️ Promotions", "count": 0, "emails": []},
+      "unclassified": {"title": "❓ Unclassified (Review Needed)", "count": 0, "emails": []}
+    },
+    "stats": {}
+  },
+  "chart_data": {
+    "labels": [],
+    "values": []
+  },
+  "sections": {},
+  "last_updated": "2024-01-01T00:00:00Z"
+}
