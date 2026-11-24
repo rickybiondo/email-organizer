@@ -46,9 +46,9 @@ class Config:
     ]
 
     # Classification settings
-    MAX_EMAILS_PER_RUN = 2000
-    LOOKBACK_DAYS = 90
-    BATCH_SIZE = 100
+    MAX_EMAILS_PER_RUN = 50        # Reduced to stay within Gmail API quota (4 req/min user)
+    LOOKBACK_DAYS = 30             # Narrower window = fewer emails
+    BATCH_SIZE = 10
 
     # Retry settings
     MAX_RETRIES = 3

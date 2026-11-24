@@ -4,6 +4,7 @@ Gmail API client wrapper with authentication and common operations.
 import os
 import base64
 import time
+import threading
 from typing import List, Dict, Any, Optional, Generator
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -117,9 +118,15 @@ class GmailClient:
                     yield detail
                     fetched += 1
 
+                # Stay under Gmail API rate limits (4 req/min per user)
+                time.sleep(0.35)
+
             page_token = response.get("nextPageToken")
             if not page_token:
                 break
+
+            # Small pause between list requests too
+            time.sleep(0.5)
 
     def get_message_metadata(self, message_id: str) -> Optional[Dict[str, Any]]:
         """Get message metadata (headers, labels, snippet)."""
