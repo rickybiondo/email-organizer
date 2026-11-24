@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-11-24T10:22:59.482567Z",
+    "status": "success",
+    "stats": {
+      "started_at": "2026-11-24T10:22:23.689671Z",
+      "total_fetched": 50,
+      "total_classified": 50,
+      "labels_applied": 50,
+      "errors": [],
+      "finished_at": "2026-11-24T10:22:59.482493Z",
+      "status": "success"
+    },
+    "error": ""
+  }
+]
