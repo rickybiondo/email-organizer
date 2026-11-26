@@ -40,5 +40,19 @@
       "status": "success"
     },
     "error": ""
+  },
+  {
+    "timestamp": "2026-11-26T17:40:30.564472Z",
+    "status": "success",
+    "stats": {
+      "started_at": "2026-11-26T17:39:49.572806Z",
+      "total_fetched": 50,
+      "total_classified": 50,
+      "labels_applied": 50,
+      "errors": [],
+      "finished_at": "2026-11-26T17:40:30.564322Z",
+      "status": "success"
+    },
+    "error": ""
   }
 ]
