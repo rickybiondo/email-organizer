@@ -1,0 +1,722 @@
+{
+  "briefing": {
+    "date": "2026-11-27",
+    "generated_at": "2026-11-27T17:23:08.933754Z",
+    "summary": {
+      "total_processed": 50,
+      "total_classified": 48,
+      "new_labels_applied": 48,
+      "label_distribution": {
+        "Auto/Newsletter": 41,
+        "Auto/Promotion": 3,
+        "Auto/Unclassified": 7
+      }
+    },
+    "sections": {
+      "important": {
+        "title": "⭐ Important",
+        "count": 0,
+        "emails": []
+      },
+      "work": {
+        "title": "💼 Work",
+        "count": 0,
+        "emails": []
+      },
+      "personal": {
+        "title": "👤 Personal",
+        "count": 0,
+        "emails": []
+      },
+      "newsletter": {
+        "title": "📰 Newsletters",
+        "count": 41,
+        "emails": [
+          {
+            "id": "1a21df9d6e73ea00",
+            "thread_id": "1a21df9d6e73ea00",
+            "sender": "updates@academia-mail.com",
+            "subject": "Business Strategy Handbook Guide",
+            "snippet": "PDF · Dear Riccardo,‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ",
+            "date": "Fri, 27 Nov 2026 17:07:22 +0000",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21dd9fa64d94ba",
+            "thread_id": "1a21dd9fa64d94ba",
+            "sender": "karan@mail.cartesia.ai",
+            "subject": "Voice design best practices",
+            "snippet": "Hey Riccardo, we&#39;ve worked with thousands of companies deploying voice agents. ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ",
+            "date": "Fri, 27 Nov 2026 16:32:33 +0000",
+            "labels": [
+              "Auto/Newsletter",
+              "Auto/Promotion"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe",
+              "header:Precedence"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "id": "1a21db6b286ed326",
+            "thread_id": "1a21db6b286ed326",
+            "sender": "temu@eu.temuemail.com",
+            "subject": "Hai ricevuto un'offerta di 2,99€ da parte nostra!",
+            "snippet": "Grazie per il tuo supporto! ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ",
+            "date": "Fri, 27 Nov 2026 15:54:00 +0000 (UTC)",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21d61543681ee8",
+            "thread_id": "1a21d61543681ee8",
+            "sender": "promotion-it@amazon.it",
+            "subject": "We found something you might like",
+            "snippet": "How about another look? Keep shopping your recent finds on Amazon.͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ",
+            "date": "Fri, 27 Nov 2026 14:20:46 +0000",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21d3f4ea5a2e72",
+            "thread_id": "1a21d3f4ea5a2e72",
+            "sender": "news@settimanale.idealista.it",
+            "subject": "Aumento Ires alle banche, gli effetti sui mutui",
+            "snippet": "Le possibili conseguenze sui mutui dell&#39;aumento dell&#39;Ires previsto dalla Manovra ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌",
+            "date": "27 Nov 2026 13:41:50 +0000",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21d2fb9c09892b",
+            "thread_id": "1a21d2fb9c09892b",
+            "sender": "posta@news.betsson.it",
+            "subject": "📣 RICCARDO, 100€ di Bonus Sport per il tuo Black Friday!🖤",
+            "snippet": "Un Bonus solo per te ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+            "date": "Fri, 27 Nov 2026 13:15:59 +0000",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21d23f04f0cb79",
+            "thread_id": "1a21d23f04f0cb79",
+            "sender": "hello@newsl.smartbox.com",
+            "subject": "Black Friday: fino al -50% + consegna gratuita 🎁",
+            "snippet": "Fino al -50%, 100% meno panico da regalo. ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌",
+            "date": "27 Nov 2026 13:10:35 +0000",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21d124db7b1e0d",
+            "thread_id": "1a21d124db7b1e0d",
+            "sender": "temu@eu.temuemail.com",
+            "subject": "[Tutto a 1€]",
+            "snippet": "INCREDIBILE! Tutto ciò che vuoi a 1€ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌",
+            "date": "Fri, 27 Nov 2026 12:54:27 +0000 (UTC)",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21ce9d7115e8be",
+            "thread_id": "1a21ce9d7115e8be",
+            "sender": "no-reply@email.boggi.com",
+            "subject": "Nuovi prodotti in sconto",
+            "snippet": "Approfitta della promo Black Friday &amp; Cyber Deals NUOVI PRODOTTI IN SCONTO #BoggiMilano #BoggiMilano Solo fino al 30 novembre, online e nei negozi BLACK FRIDAY &amp; CYBER DEALS -30% ACQUISTA ORA",
+            "date": "Fri, 27 Nov 2026 06:10:15 -0600",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21cc85e02caccc",
+            "thread_id": "1a21cc85e02caccc",
+            "sender": "footlocker_europe@bc.footlocker.it",
+            "subject": "Black Friday: Fino al 50% di sconto 🖤",
+            "snippet": "Sneakers, streetwear, e molto altro. Acquista ora. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+            "date": "Fri, 27 Nov 2026 11:33:42 +0000 (UTC)",
+            "labels": [
+              "Auto/Newsletter"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe"
+            ],
+            "confidence": 0.2
+          }
+        ]
+      },
+      "promotion": {
+        "title": "🏷️ Promotions",
+        "count": 3,
+        "emails": [
+          {
+            "id": "1a21dd9fa64d94ba",
+            "thread_id": "1a21dd9fa64d94ba",
+            "sender": "karan@mail.cartesia.ai",
+            "subject": "Voice design best practices",
+            "snippet": "Hey Riccardo, we&#39;ve worked with thousands of companies deploying voice agents. ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ",
+            "date": "Fri, 27 Nov 2026 16:32:33 +0000",
+            "labels": [
+              "Auto/Newsletter",
+              "Auto/Promotion"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe",
+              "header:Precedence"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "id": "1a219e4ecbac6bd9",
+            "thread_id": "1a219e4ecbac6bd9",
+            "sender": "alessio@startupgeeks.it",
+            "subject": "Torta o biscotto? Un tribunale ha dovuto deciderlo davvero.",
+            "snippet": "E la risposta riguarda anche la tua Startup. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+            "date": "Thu, 26 Nov 2026 23:06:01 +0100",
+            "labels": [
+              "Auto/Newsletter",
+              "Auto/Promotion"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe",
+              "header:Precedence"
+            ],
+            "confidence": 0.4
+          },
+          {
+            "id": "1a219741ba4426b6",
+            "thread_id": "1a219741ba4426b6",
+            "sender": "hello@ollama.com",
+            "subject": "Inkling 2 Mini now on Windows and Linux, faster on Mac",
+            "snippet": "Inkling 2 Mini is now available to run locally on Windows and Linux with the latest version of Ollama (0.40.18). On the Mac, this version runs Inkling 2 Mini significantly faster with updated kernels.",
+            "date": "Thu, 26 Nov 2026 20:02:49 +0000",
+            "labels": [
+              "Auto/Newsletter",
+              "Auto/Promotion"
+            ],
+            "matched_rules": [
+              "header:List-Unsubscribe",
+              "header:Precedence"
+            ],
+            "confidence": 0.4
+          }
+        ]
+      },
+      "unclassified": {
+        "title": "❓ Unclassified (Review Needed)",
+        "count": 7,
+        "emails": [
+          {
+            "id": "1a21d2c59d2d7421",
+            "thread_id": "1a21d2c59d2d7421",
+            "sender": "no-reply@revolut.com",
+            "subject": "Your local bank account is waiting for you 🇮🇹",
+            "snippet": "Get your Italian account today Experience smoother, faster payments with a local bank account Get my Italian account Hi Riccardo, We just wanted to remind you that with a local bank account, you can",
+            "date": "Fri, 27 Nov 2026 13:19:13 +0000",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21c9bca4b8fccc",
+            "thread_id": "1a21c9bca4b8fccc",
+            "sender": "matilde_pederoda@carraro.com",
+            "subject": "Carraro Group - Assessment Operations and Engineering 1 Dicembre",
+            "snippet": "Buongiorno Riccardo, Dopo averti confermato la selezione per la giornata di Assessment Operations &amp; Engineering, siamo felici di condividere con te le informazioni finali utili per la",
+            "date": "Fri, 27 Nov 2026 10:44:49 +0000",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21c8eff74ba8a7",
+            "thread_id": "1a21c8eff74ba8a7",
+            "sender": "noreply@send.toget4u.com",
+            "subject": "C'è un'offerta di lavoro per te",
+            "snippet": "ToGet4U PEOPLE YOU NEED CANDIDATURE Nuova offerta di lavoro! 📩 Ciao Riccardo Elleni, Potrebbe interessarti questa offerta di lavoro: ADDETTI AL SUPPORTO TECNICO PER SPETTACOLO DRONI - CAORLE (VE) (O26",
+            "date": "Fri, 27 Nov 2026 10:31:02 +0000",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21c0220129ae3b",
+            "thread_id": "1a21c01e921632fb",
+            "sender": "chiara.sartorato@auxiell.com",
+            "subject": "Colloquio tecnico auxiell spa",
+            "snippet": "",
+            "date": "Fri, 27 Nov 2026 07:57:09 +0000",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a21c01e921632fb",
+            "thread_id": "1a21c01e921632fb",
+            "sender": "chiara.sartorato@auxiell.com",
+            "subject": "Colloquio tecnico auxiell spa",
+            "snippet": "",
+            "date": "Fri, 27 Nov 2026 07:56:54 +0000",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a2193451a3b85f9",
+            "thread_id": "1a217da02e70c4a7",
+            "sender": "career@services.dlh.de",
+            "subject": "Lufthansa Group: Your application - please submit additional information [LH-ID: omxlvdmwppcwymtsxmsmozhvbbwzwlqv]",
+            "snippet": "Application no: A605932449 Application for: Internship eLearning &amp; Artificial Intelligence, Lufthansa Technical Training GmbH Hello Riccardo Elleni, we are pleased that you have applied in our",
+            "date": "Thu, 26 Nov 2026 19:53:07 +0100",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          },
+          {
+            "id": "1a218f1d09a303b4",
+            "thread_id": "1a218f1d09a303b4",
+            "sender": "riccardooelleni@gmail.com",
+            "subject": "📧 Daily Email Briefing - 2026-11-26",
+            "snippet": "📧 Daily Email Briefing 2026-11-26 50 Processed 50 Classified 50 Labels Applied 4 Active Labels ⭐ Important 1 emails no_reply@email.apple.com Your invoice from Apple. Invoice 25 November 2026 Sequence:",
+            "date": "Thu, 26 Nov 2026 11:40:30 -0600",
+            "labels": [
+              "Auto/Unclassified"
+            ],
+            "matched_rules": [
+              "default"
+            ],
+            "confidence": 0.2
+          }
+        ]
+      }
+    },
+    "stats": {
+      "started_at": "2026-11-27T17:22:34.981403Z",
+      "total_fetched": 50,
+      "total_classified": 48,
+      "labels_applied": 48,
+      "errors": []
+    }
+  },
+  "chart_data": {
+    "labels": [
+      "Auto/Newsletter",
+      "Auto/Promotion",
+      "Auto/Unclassified"
+    ],
+    "values": [
+      41,
+      3,
+      7
+    ]
+  },
+  "sections": {
+    "important": {
+      "title": "⭐ Important",
+      "count": 0,
+      "emails": []
+    },
+    "work": {
+      "title": "💼 Work",
+      "count": 0,
+      "emails": []
+    },
+    "personal": {
+      "title": "👤 Personal",
+      "count": 0,
+      "emails": []
+    },
+    "newsletter": {
+      "title": "📰 Newsletters",
+      "count": 41,
+      "emails": [
+        {
+          "id": "1a21df9d6e73ea00",
+          "thread_id": "1a21df9d6e73ea00",
+          "sender": "updates@academia-mail.com",
+          "subject": "Business Strategy Handbook Guide",
+          "snippet": "PDF · Dear Riccardo,‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ",
+          "date": "Fri, 27 Nov 2026 17:07:22 +0000",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21dd9fa64d94ba",
+          "thread_id": "1a21dd9fa64d94ba",
+          "sender": "karan@mail.cartesia.ai",
+          "subject": "Voice design best practices",
+          "snippet": "Hey Riccardo, we&#39;ve worked with thousands of companies deploying voice agents. ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ",
+          "date": "Fri, 27 Nov 2026 16:32:33 +0000",
+          "labels": [
+            "Auto/Newsletter",
+            "Auto/Promotion"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe",
+            "header:Precedence"
+          ],
+          "confidence": 0.4
+        },
+        {
+          "id": "1a21db6b286ed326",
+          "thread_id": "1a21db6b286ed326",
+          "sender": "temu@eu.temuemail.com",
+          "subject": "Hai ricevuto un'offerta di 2,99€ da parte nostra!",
+          "snippet": "Grazie per il tuo supporto! ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ",
+          "date": "Fri, 27 Nov 2026 15:54:00 +0000 (UTC)",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21d61543681ee8",
+          "thread_id": "1a21d61543681ee8",
+          "sender": "promotion-it@amazon.it",
+          "subject": "We found something you might like",
+          "snippet": "How about another look? Keep shopping your recent finds on Amazon.͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ",
+          "date": "Fri, 27 Nov 2026 14:20:46 +0000",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21d3f4ea5a2e72",
+          "thread_id": "1a21d3f4ea5a2e72",
+          "sender": "news@settimanale.idealista.it",
+          "subject": "Aumento Ires alle banche, gli effetti sui mutui",
+          "snippet": "Le possibili conseguenze sui mutui dell&#39;aumento dell&#39;Ires previsto dalla Manovra ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌",
+          "date": "27 Nov 2026 13:41:50 +0000",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21d2fb9c09892b",
+          "thread_id": "1a21d2fb9c09892b",
+          "sender": "posta@news.betsson.it",
+          "subject": "📣 RICCARDO, 100€ di Bonus Sport per il tuo Black Friday!🖤",
+          "snippet": "Un Bonus solo per te ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "date": "Fri, 27 Nov 2026 13:15:59 +0000",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21d23f04f0cb79",
+          "thread_id": "1a21d23f04f0cb79",
+          "sender": "hello@newsl.smartbox.com",
+          "subject": "Black Friday: fino al -50% + consegna gratuita 🎁",
+          "snippet": "Fino al -50%, 100% meno panico da regalo. ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌",
+          "date": "27 Nov 2026 13:10:35 +0000",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21d124db7b1e0d",
+          "thread_id": "1a21d124db7b1e0d",
+          "sender": "temu@eu.temuemail.com",
+          "subject": "[Tutto a 1€]",
+          "snippet": "INCREDIBILE! Tutto ciò che vuoi a 1€ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌",
+          "date": "Fri, 27 Nov 2026 12:54:27 +0000 (UTC)",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21ce9d7115e8be",
+          "thread_id": "1a21ce9d7115e8be",
+          "sender": "no-reply@email.boggi.com",
+          "subject": "Nuovi prodotti in sconto",
+          "snippet": "Approfitta della promo Black Friday &amp; Cyber Deals NUOVI PRODOTTI IN SCONTO #BoggiMilano #BoggiMilano Solo fino al 30 novembre, online e nei negozi BLACK FRIDAY &amp; CYBER DEALS -30% ACQUISTA ORA",
+          "date": "Fri, 27 Nov 2026 06:10:15 -0600",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21cc85e02caccc",
+          "thread_id": "1a21cc85e02caccc",
+          "sender": "footlocker_europe@bc.footlocker.it",
+          "subject": "Black Friday: Fino al 50% di sconto 🖤",
+          "snippet": "Sneakers, streetwear, e molto altro. Acquista ora. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+          "date": "Fri, 27 Nov 2026 11:33:42 +0000 (UTC)",
+          "labels": [
+            "Auto/Newsletter"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe"
+          ],
+          "confidence": 0.2
+        }
+      ]
+    },
+    "promotion": {
+      "title": "🏷️ Promotions",
+      "count": 3,
+      "emails": [
+        {
+          "id": "1a21dd9fa64d94ba",
+          "thread_id": "1a21dd9fa64d94ba",
+          "sender": "karan@mail.cartesia.ai",
+          "subject": "Voice design best practices",
+          "snippet": "Hey Riccardo, we&#39;ve worked with thousands of companies deploying voice agents. ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ͏​ ",
+          "date": "Fri, 27 Nov 2026 16:32:33 +0000",
+          "labels": [
+            "Auto/Newsletter",
+            "Auto/Promotion"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe",
+            "header:Precedence"
+          ],
+          "confidence": 0.4
+        },
+        {
+          "id": "1a219e4ecbac6bd9",
+          "thread_id": "1a219e4ecbac6bd9",
+          "sender": "alessio@startupgeeks.it",
+          "subject": "Torta o biscotto? Un tribunale ha dovuto deciderlo davvero.",
+          "snippet": "E la risposta riguarda anche la tua Startup. ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+          "date": "Thu, 26 Nov 2026 23:06:01 +0100",
+          "labels": [
+            "Auto/Newsletter",
+            "Auto/Promotion"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe",
+            "header:Precedence"
+          ],
+          "confidence": 0.4
+        },
+        {
+          "id": "1a219741ba4426b6",
+          "thread_id": "1a219741ba4426b6",
+          "sender": "hello@ollama.com",
+          "subject": "Inkling 2 Mini now on Windows and Linux, faster on Mac",
+          "snippet": "Inkling 2 Mini is now available to run locally on Windows and Linux with the latest version of Ollama (0.40.18). On the Mac, this version runs Inkling 2 Mini significantly faster with updated kernels.",
+          "date": "Thu, 26 Nov 2026 20:02:49 +0000",
+          "labels": [
+            "Auto/Newsletter",
+            "Auto/Promotion"
+          ],
+          "matched_rules": [
+            "header:List-Unsubscribe",
+            "header:Precedence"
+          ],
+          "confidence": 0.4
+        }
+      ]
+    },
+    "unclassified": {
+      "title": "❓ Unclassified (Review Needed)",
+      "count": 7,
+      "emails": [
+        {
+          "id": "1a21d2c59d2d7421",
+          "thread_id": "1a21d2c59d2d7421",
+          "sender": "no-reply@revolut.com",
+          "subject": "Your local bank account is waiting for you 🇮🇹",
+          "snippet": "Get your Italian account today Experience smoother, faster payments with a local bank account Get my Italian account Hi Riccardo, We just wanted to remind you that with a local bank account, you can",
+          "date": "Fri, 27 Nov 2026 13:19:13 +0000",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21c9bca4b8fccc",
+          "thread_id": "1a21c9bca4b8fccc",
+          "sender": "matilde_pederoda@carraro.com",
+          "subject": "Carraro Group - Assessment Operations and Engineering 1 Dicembre",
+          "snippet": "Buongiorno Riccardo, Dopo averti confermato la selezione per la giornata di Assessment Operations &amp; Engineering, siamo felici di condividere con te le informazioni finali utili per la",
+          "date": "Fri, 27 Nov 2026 10:44:49 +0000",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21c8eff74ba8a7",
+          "thread_id": "1a21c8eff74ba8a7",
+          "sender": "noreply@send.toget4u.com",
+          "subject": "C'è un'offerta di lavoro per te",
+          "snippet": "ToGet4U PEOPLE YOU NEED CANDIDATURE Nuova offerta di lavoro! 📩 Ciao Riccardo Elleni, Potrebbe interessarti questa offerta di lavoro: ADDETTI AL SUPPORTO TECNICO PER SPETTACOLO DRONI - CAORLE (VE) (O26",
+          "date": "Fri, 27 Nov 2026 10:31:02 +0000",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21c0220129ae3b",
+          "thread_id": "1a21c01e921632fb",
+          "sender": "chiara.sartorato@auxiell.com",
+          "subject": "Colloquio tecnico auxiell spa",
+          "snippet": "",
+          "date": "Fri, 27 Nov 2026 07:57:09 +0000",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a21c01e921632fb",
+          "thread_id": "1a21c01e921632fb",
+          "sender": "chiara.sartorato@auxiell.com",
+          "subject": "Colloquio tecnico auxiell spa",
+          "snippet": "",
+          "date": "Fri, 27 Nov 2026 07:56:54 +0000",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a2193451a3b85f9",
+          "thread_id": "1a217da02e70c4a7",
+          "sender": "career@services.dlh.de",
+          "subject": "Lufthansa Group: Your application - please submit additional information [LH-ID: omxlvdmwppcwymtsxmsmozhvbbwzwlqv]",
+          "snippet": "Application no: A605932449 Application for: Internship eLearning &amp; Artificial Intelligence, Lufthansa Technical Training GmbH Hello Riccardo Elleni, we are pleased that you have applied in our",
+          "date": "Thu, 26 Nov 2026 19:53:07 +0100",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        },
+        {
+          "id": "1a218f1d09a303b4",
+          "thread_id": "1a218f1d09a303b4",
+          "sender": "riccardooelleni@gmail.com",
+          "subject": "📧 Daily Email Briefing - 2026-11-26",
+          "snippet": "📧 Daily Email Briefing 2026-11-26 50 Processed 50 Classified 50 Labels Applied 4 Active Labels ⭐ Important 1 emails no_reply@email.apple.com Your invoice from Apple. Invoice 25 November 2026 Sequence:",
+          "date": "Thu, 26 Nov 2026 11:40:30 -0600",
+          "labels": [
+            "Auto/Unclassified"
+          ],
+          "matched_rules": [
+            "default"
+          ],
+          "confidence": 0.2
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-11-27T17:23:08.934205Z"
+}

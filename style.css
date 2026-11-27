@@ -1,0 +1,298 @@
+/* Email Organizer Dashboard Styles */
+
+:root {
+    --primary: #6366f1;
+    --primary-light: #eef2ff;
+    --success: #22c55e;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.1);
+    --radius: 12px;
+    --radius-sm: 8px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: linear-gradient(135deg, var(--primary) 0%, #7c3aed 100%);
+    color: white;
+    padding: 32px 24px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    opacity: 0.9;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.last-updated {
+    opacity: 0.7;
+    font-size: 13px;
+    font-family: monospace;
+}
+
+.main {
+    flex: 1;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+/* Summary Cards */
+.summary-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-2px);
+}
+
+.card-icon {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+}
+
+.card-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Chart Section */
+.chart-section {
+    margin-bottom: 24px;
+}
+
+.chart-card h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.chart-container {
+    height: 300px;
+    position: relative;
+}
+
+/* Email Sections */
+.sections-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.email-section {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    overflow: hidden;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--primary-light);
+}
+
+.section-header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-badge {
+    background: var(--primary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.email-list {
+    padding: 8px 0;
+}
+
+.email-card {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+}
+
+.email-card:last-child {
+    border-bottom: none;
+}
+
+.email-card:hover {
+    background: #fafafa;
+}
+
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.email-sender {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.email-date {
+    color: var(--text-muted);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.email-subject {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+.email-snippet {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.email-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.label-tag {
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 3px 10px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.empty-state {
+    padding: 32px 24px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    padding: 24px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+    margin-top: auto;
+}
+
+.footer a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .header {
+        padding: 24px 16px;
+    }
+    .main {
+        padding: 16px;
+    }
+    .summary-section {
+        grid-template-columns: 1fr 1fr;
+    }
+    .chart-container {
+        height: 250px;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #818cf8;
+        --primary-light: #1e1b4b;
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #f1f5f9;
+        --text-muted: #94a3b8;
+        --border: #334155;
+    }
+    .email-card:hover {
+        background: #1e293b;
+    }
+}
